@@ -16,10 +16,10 @@ var char_diamond = '+'
 
 while (fibonacci[fibonacci.length-1] <= max) {
 
-	if (a > 1) {  
+    if (a > 1) {  
   	fibonacci.push(Number(fibonacci[fibonacci.length-1]) + Number(fibonacci[fibonacci.length-2])); //increment previous + previous+2
   	
-    if (fibonacci.length>0) {
+      if (fibonacci.length>0) {
     	 if (fibonacci[fibonacci.length-1] < max) {
 
           //print tree
@@ -38,18 +38,18 @@ while (fibonacci[fibonacci.length-1] <= max) {
        }    	 
     }
     
-  }	else { //init, first 
-  	fibonacci.push(a);
+  } else { //init, first 
+    fibonacci.push(a);
   }
-	a++;
+  a++;
   
   
   //if fibonacci var got limit defined
   if (fibonacci[fibonacci.length-1] >= max) {
   
-  	 var i = 0;
+     var i = 0;
      
-  	 while (a > i) {
+     while (a > i) {
      		
         if (fibonacci.length>0) {
     	    if (fibonacci[fibonacci.length-i] < max) {
