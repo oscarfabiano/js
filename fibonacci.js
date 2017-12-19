@@ -22,7 +22,7 @@ while (fibonacci[fibonacci.length-1] <= max) {
       if (fibonacci.length>0) {
     	 if (fibonacci[fibonacci.length-1] < max) {
 
-          //print tree
+          //print first part diamond
           /*Ex: 
           ........................*          
           ........................**
@@ -53,7 +53,7 @@ while (fibonacci[fibonacci.length-1] <= max) {
      		
         if (fibonacci.length>0) {
     	    if (fibonacci[fibonacci.length-i] < max) {
-            //print reversal tree
+            //print reversal diamond
 
             console.log(
               Array( max - fibonacci[fibonacci.length-i] + (a+(Math.floor(fibonacci[fibonacci.length-i]/2))) ).join(char_space) + 
